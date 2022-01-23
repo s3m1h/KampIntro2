@@ -18,6 +18,3 @@ sayilar2[0] = 999;
 // int ,decimal, float, double,bool  => bunlar değer tutucu tiplerdir. geçicidir
 // array, class, interface => bunlar ise referans tutucu tiplerdir.(pointer gibi düşünebiliriz)
 
-
-//
-

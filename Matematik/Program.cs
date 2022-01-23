@@ -11,6 +11,7 @@ dortIslem.Topla(2,5);
 dortIslem.Cikarma(2,5);
 dortIslem.Carpma(2,5);
 dortIslem.Bolme(19,5);
+dortIslem.Bolme(1,5);
 
 
 
