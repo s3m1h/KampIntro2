@@ -15,7 +15,7 @@ namespace ClassMetodDemo
         }
         public void Sil(Musteri musteri)
         {
-            Console.WriteLine("Başarılı bir şekilde silindi." + musteri.KullaniciAdi);
+            Console.WriteLine("Başarılı bir şekilde silindi.");
         }
         public void Listele(Musteri[] musteris)
         {
@@ -26,7 +26,7 @@ namespace ClassMetodDemo
                     +"\nSoyisim: "+musteri.Soyad
                     +"\nKullaniciAdi: "+musteri.KullaniciAdi
                     );
-                Console.WriteLine("---------------------------------");
+                Console.WriteLine("----------------------------");
             }
         }
     }
