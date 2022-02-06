@@ -39,13 +39,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP4", "OOP4\OOP4.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP4.1(RecapDemo)", "OOP4.1(RecapDemo)\OOP4.1(RecapDemo).csproj", "{AF8872B9-9047-429F-946C-7DB46690AEFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP4.2(interfaces)", "OOP4.2(interfaces)\OOP4.2(interfaces).csproj", "{736ADAB6-93B6-4FF7-B1C6-6F23DCA0FEC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP4.2(interfaces)", "OOP4.2(interfaces)\OOP4.2(interfaces).csproj", "{736ADAB6-93B6-4FF7-B1C6-6F23DCA0FEC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{E0539216-F4D3-4B25-88D2-769BE933D912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{E0539216-F4D3-4B25-88D2-769BE933D912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{483641EA-CE1F-429A-BA48-C3D92AE03269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{483641EA-CE1F-429A-BA48-C3D92AE03269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E0DCD2AA-AB21-4709-A062-47A9F70DAADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E0DCD2AA-AB21-4709-A062-47A9F70DAADF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo2", "InterfacesDemo2\InterfacesDemo2.csproj", "{D245B47B-5FBC-4C88-9BE8-FD69B89D6D37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{0BD340AB-ABD2-487B-9813-8727B9ECBAD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{D526F2C2-0400-4C7D-94A3-1CF27F53C355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP5(pratices)", "OOP5(pratices)\OOP5(pratices).csproj", "{DF047A05-55D9-4364-87A8-1BA4928385FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +149,22 @@ Global
 		{E0DCD2AA-AB21-4709-A062-47A9F70DAADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0DCD2AA-AB21-4709-A062-47A9F70DAADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0DCD2AA-AB21-4709-A062-47A9F70DAADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D245B47B-5FBC-4C88-9BE8-FD69B89D6D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D245B47B-5FBC-4C88-9BE8-FD69B89D6D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D245B47B-5FBC-4C88-9BE8-FD69B89D6D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D245B47B-5FBC-4C88-9BE8-FD69B89D6D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD340AB-ABD2-487B-9813-8727B9ECBAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD340AB-ABD2-487B-9813-8727B9ECBAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD340AB-ABD2-487B-9813-8727B9ECBAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD340AB-ABD2-487B-9813-8727B9ECBAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D526F2C2-0400-4C7D-94A3-1CF27F53C355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D526F2C2-0400-4C7D-94A3-1CF27F53C355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D526F2C2-0400-4C7D-94A3-1CF27F53C355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D526F2C2-0400-4C7D-94A3-1CF27F53C355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF047A05-55D9-4364-87A8-1BA4928385FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF047A05-55D9-4364-87A8-1BA4928385FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF047A05-55D9-4364-87A8-1BA4928385FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF047A05-55D9-4364-87A8-1BA4928385FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
