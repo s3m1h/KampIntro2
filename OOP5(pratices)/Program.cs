@@ -53,32 +53,28 @@ class Person : Customer
 interface ICreditManager
 {
     void Hesapla();
-    void Save();
 }
-class TeacherCreditManager : ICreditManager
+abstract class BaseCustomerManager {
+    public virtual void Save()
+    {
+        Console.WriteLine("kaydedildi...");
+    }
+}
+class TeacherCreditManager : BaseCustomerManager, ICreditManager
 {
     public void Hesapla()
-    {
-        Console.WriteLine("ogretmen kredisi hesaplandı");
-    }
-
-    public void Save()
     {
         throw new NotImplementedException();
     }
 }
-class MilitaryCreditManager : ICreditManager
+class MilitaryCreditManager : BaseCustomerManager,ICreditManager
 {
     public void Hesapla()
     {
         Console.WriteLine("asker kredisi hesaplandı");
     }
-
-    public void Save()
-    {
-        throw new NotImplementedException();
-    }
 }
+
 class CustomerManager
 {
     public CustomerManager()
