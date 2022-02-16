@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameProjectDemo", "GameProj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQProject", "LINQProject\LINQProject.csproj", "{86623E23-1017-4589-8F43-C17A7CDDCD58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodeDemo", "CleanCodeDemo\CleanCodeDemo.csproj", "{CB62CF4D-96E5-4AE9-A04B-6E0D74562FEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCodeDemo", "CleanCodeDemo\CleanCodeDemo.csproj", "{CB62CF4D-96E5-4AE9-A04B-6E0D74562FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodeDemo2", "CleanCodeDemo2\CleanCodeDemo2.csproj", "{D6330DD1-CD32-4C07-90A0-B4FF959A4085}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{CB62CF4D-96E5-4AE9-A04B-6E0D74562FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB62CF4D-96E5-4AE9-A04B-6E0D74562FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB62CF4D-96E5-4AE9-A04B-6E0D74562FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6330DD1-CD32-4C07-90A0-B4FF959A4085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6330DD1-CD32-4C07-90A0-B4FF959A4085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6330DD1-CD32-4C07-90A0-B4FF959A4085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6330DD1-CD32-4C07-90A0-B4FF959A4085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
