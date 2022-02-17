@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQProject", "LINQProject\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCodeDemo", "CleanCodeDemo\CleanCodeDemo.csproj", "{CB62CF4D-96E5-4AE9-A04B-6E0D74562FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodeDemo2", "CleanCodeDemo2\CleanCodeDemo2.csproj", "{D6330DD1-CD32-4C07-90A0-B4FF959A4085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCodeDemo2", "CleanCodeDemo2\CleanCodeDemo2.csproj", "{D6330DD1-CD32-4C07-90A0-B4FF959A4085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDemo", "YoutubeDemo\YoutubeDemo.csproj", "{4637D09E-057A-4309-8FF8-F4DF5E849421}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{D6330DD1-CD32-4C07-90A0-B4FF959A4085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6330DD1-CD32-4C07-90A0-B4FF959A4085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6330DD1-CD32-4C07-90A0-B4FF959A4085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4637D09E-057A-4309-8FF8-F4DF5E849421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4637D09E-057A-4309-8FF8-F4DF5E849421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4637D09E-057A-4309-8FF8-F4DF5E849421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4637D09E-057A-4309-8FF8-F4DF5E849421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
