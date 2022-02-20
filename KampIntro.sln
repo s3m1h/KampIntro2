@@ -63,7 +63,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCodeDemo", "CleanCodeD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCodeDemo2", "CleanCodeDemo2\CleanCodeDemo2.csproj", "{D6330DD1-CD32-4C07-90A0-B4FF959A4085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDemo", "YoutubeDemo\YoutubeDemo.csproj", "{4637D09E-057A-4309-8FF8-F4DF5E849421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeDemo", "YoutubeDemo\YoutubeDemo.csproj", "{4637D09E-057A-4309-8FF8-F4DF5E849421}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{158C4F4E-5617-4A73-9342-63B8B25C7219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project4.Entities", "Project4.Entities\Project4.Entities.csproj", "{D96BFA7B-C815-4A73-8F64-0301B17FB6B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +199,14 @@ Global
 		{4637D09E-057A-4309-8FF8-F4DF5E849421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4637D09E-057A-4309-8FF8-F4DF5E849421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4637D09E-057A-4309-8FF8-F4DF5E849421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158C4F4E-5617-4A73-9342-63B8B25C7219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158C4F4E-5617-4A73-9342-63B8B25C7219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158C4F4E-5617-4A73-9342-63B8B25C7219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158C4F4E-5617-4A73-9342-63B8B25C7219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96BFA7B-C815-4A73-8F64-0301B17FB6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96BFA7B-C815-4A73-8F64-0301B17FB6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96BFA7B-C815-4A73-8F64-0301B17FB6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96BFA7B-C815-4A73-8F64-0301B17FB6B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
