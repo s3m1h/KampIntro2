@@ -67,13 +67,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeDemo", "YoutubeDemo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{158C4F4E-5617-4A73-9342-63B8B25C7219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project4.Entities", "Project4.Entities\Project4.Entities.csproj", "{D96BFA7B-C815-4A73-8F64-0301B17FB6B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project4.Entities", "Project4.Entities\Project4.Entities.csproj", "{D96BFA7B-C815-4A73-8F64-0301B17FB6B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project4.DataAccess", "Project4.DataAccess\Project4.DataAccess.csproj", "{E57C39C4-3283-41FA-B2FC-4E5FC5675747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project4.DataAccess", "Project4.DataAccess\Project4.DataAccess.csproj", "{E57C39C4-3283-41FA-B2FC-4E5FC5675747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project4.Business", "Project4.Business\Project4.Business.csproj", "{9651E6CB-91A5-4282-8ED3-736F7C092E42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project4.Business", "Project4.Business\Project4.Business.csproj", "{9651E6CB-91A5-4282-8ED3-736F7C092E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project4.ConsoleUI", "Project4.ConsoleUI\Project4.ConsoleUI.csproj", "{CBDDED6F-C197-4D64-9992-802994EB2DDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project4.ConsoleUI", "Project4.ConsoleUI\Project4.ConsoleUI.csproj", "{CBDDED6F-C197-4D64-9992-802994EB2DDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{8528EF06-6D07-432F-ABD4-6999E0369368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{5F486297-9CDA-4D7F-8898-0A5F67CFB896}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +229,14 @@ Global
 		{CBDDED6F-C197-4D64-9992-802994EB2DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBDDED6F-C197-4D64-9992-802994EB2DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBDDED6F-C197-4D64-9992-802994EB2DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8528EF06-6D07-432F-ABD4-6999E0369368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8528EF06-6D07-432F-ABD4-6999E0369368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8528EF06-6D07-432F-ABD4-6999E0369368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8528EF06-6D07-432F-ABD4-6999E0369368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F486297-9CDA-4D7F-8898-0A5F67CFB896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F486297-9CDA-4D7F-8898-0A5F67CFB896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F486297-9CDA-4D7F-8898-0A5F67CFB896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F486297-9CDA-4D7F-8898-0A5F67CFB896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
