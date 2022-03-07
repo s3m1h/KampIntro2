@@ -5,9 +5,9 @@ using InterfaceAbstractDemo.Concrete;
 
 
 
-BaseCustomerManager starbucksCustomerManager = new StarbucksCustomerManager();
-BaseCustomerManager neroCustomerManager = new NeroCustomerManager();
+//BaseCustomerManager starbucksCustomerManager = new StarbucksCustomerManager();
+//BaseCustomerManager neroCustomerManager = new NeroCustomerManager();
 
-neroCustomerManager.Save(new Customer { FirstName="semih"});
+//neroCustomerManager.Save(new Customer { FirstName="semih"});
 
 

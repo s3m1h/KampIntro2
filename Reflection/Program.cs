@@ -1,5 +1,4 @@
 ﻿
-
 //DortIslem dortIslem = new DortIslem(5,7);
 //var topla = dortIslem.Topla(2,4);
 //var carp = dortIslem.Carp(5,2);
@@ -7,12 +6,13 @@
 //Console.WriteLine(carp);
 
 var type = typeof(DortIslem);
+Console.WriteLine(type);
 // DortIslem dortIslem = (DortIslem)Activator.CreateInstance(type,4,3); // calısma anında dorislemi newlemiş oluyoruz.
 // Console.WriteLine(dortIslem.Topla(5, 4));
 // Console.WriteLine(dortIslem.Topla2());
 
 var ornek = Activator.CreateInstance(type, 4, 3);
-
+Console.WriteLine(ornek);
 var result = ornek.GetType().GetMethod("Topla2").Invoke(ornek,null); // bilgi alma 
 Console.WriteLine(result);
 
