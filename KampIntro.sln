@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\At
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{5F486297-9CDA-4D7F-8898-0A5F67CFB896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes2", "Attributes2\Attributes2.csproj", "{0104E0DC-F26E-4434-8037-4CC0E8ADCD56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes2", "Attributes2\Attributes2.csproj", "{0104E0DC-F26E-4434-8037-4CC0E8ADCD56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiFileUpload", "WebApiFileUpload\WebApiFileUpload.csproj", "{1FA554A8-1677-494B-A225-6B21D2C9D701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{0104E0DC-F26E-4434-8037-4CC0E8ADCD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0104E0DC-F26E-4434-8037-4CC0E8ADCD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0104E0DC-F26E-4434-8037-4CC0E8ADCD56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA554A8-1677-494B-A225-6B21D2C9D701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA554A8-1677-494B-A225-6B21D2C9D701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA554A8-1677-494B-A225-6B21D2C9D701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA554A8-1677-494B-A225-6B21D2C9D701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
